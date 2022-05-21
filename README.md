@@ -1,4 +1,4 @@
-# 7 Days os code
+# 7 Days Of Code
 
 Landing page simples com HTML e CSS
 
