@@ -133,6 +133,7 @@ header .btn-cadastrar{
 }
 #vacancies .descricao img{
   max-width: 1216px;
+  width: 100%;
 }
 #vacancies .vagas{
   max-width: 768px;
@@ -162,4 +163,44 @@ header .btn-cadastrar{
 }
 #vacancies .vagas p.time{
   margin-right: 1.5rem;
+}
+
+/* --- depoimentos --- */
+#depoimentos .container{
+  background-color: #C3191908;
+  border-radius: 1rem;
+  padding: 4rem;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+#depoimentos span.desc{
+  font-size: .875rem;
+  color: var(--new-wine);
+  font-weight: 600;
+}
+#depoimentos h3{
+  font-size: 2.25rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: var(--new-gray-900);
+}
+#depoimentos img,
+#depoimentos span.name,
+#depoimentos span.profissao{
+  display: block;
+}
+#depoimentos img{
+  max-width: 56px;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#depoimentos span.name{
+  font-size: 1rem;
+  color: var(--new-gray-900);
+  padding-bottom: 4px;
+}
+#depoimentos span.profissao{
+  font-size: .875rem;
+  color: var(--new-gray-500);
 }
