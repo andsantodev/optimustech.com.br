@@ -1,5 +1,11 @@
 :root{
   --new-gray: #667085;
+  --new-gray-500: #667085;
+  --new-gray-900: #101828;
   --new-wine: #8E2424;
   --new-white: #ffffff;
+}
+
+.text-gray{
+  color: var(--new-gray);
 }

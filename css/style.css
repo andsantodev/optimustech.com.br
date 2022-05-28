@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 @import url(global.css);
 
 body{
+  width: 100%;
   max-width: 1440px;
+  height: 100vh;
   margin: 0 auto;
   font-family: 'Inter', sans-serif;
-
-  border: 1px solid;
 }
 
 /* --- header --- */
@@ -27,7 +26,7 @@ header nav ul{
   gap: 32px;
   list-style: none;
   padding-left: 0;
-  font-size: 16px;
+  font-size: 1rem;
 }
 header nav li a{
   color: var(--new-gray);
@@ -38,7 +37,7 @@ header .btn-cadastrar{
   font-weight: 500;
 }
 header .btn-entrar{
-  font-size: 16px;
+  font-size: 1rem;
   margin: 0 30px;
   color: var(--new-gray);
 }
@@ -49,7 +48,61 @@ header .btn-cadastrar{
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-radius: 6px;
+  border-radius: .4rem;
   background-color: var(--new-wine);
   color: var(--new-white);
+}
+
+/* --- about-us --- */
+#about-us{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 407px;
+}
+#about-us span{
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--new-wine);
+  margin-bottom: 1.5rem;
+}
+#about-us h1{
+  font-size: 3rem; 
+  color: var(--new-gray-900);
+  margin-bottom: 2rem;
+}
+#about-us p{
+  max-width: 790px; 
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--new-gray-500);
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+/* --- metricas --- */
+#metricas{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  min-height: 288px;
+}
+#metricas div{
+  width: 260px;
+}
+#metricas h2{
+  font-size: 3.5rem;
+  margin-bottom: 12px;
+  color: var(--new-wine);
+}
+#metricas h3{
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: var(--new-gray-900);
+}
+#metricas p{
+  font-size: 1rem;
+  color: var(--new-gray-500);
 }
