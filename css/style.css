@@ -106,3 +106,60 @@ header .btn-cadastrar{
   font-size: 1rem;
   color: var(--new-gray-500);
 }
+
+/* --- vacancies --- */
+#vacancies{
+  padding: 6.25rem 0 6rem;
+}
+#vacancies .descricao{
+  text-align: center;
+}
+#vacancies .descricao span{
+  font-size: .875rem;
+  color: var(--new-wine);
+  background-color: #8E24240D;
+  padding: 4px 12px;
+  border-radius: 1rem;
+}
+#vacancies .descricao h2{
+  font-size: 2.25rem;
+  margin: 1.25rem 0;
+  color: var(--new-gray-900);
+}
+#vacancies .descricao p{
+  font-size: 1.25rem;
+  margin-bottom: 4rem;
+  color: var(--new-gray-500);
+}
+#vacancies .descricao img{
+  max-width: 1216px;
+}
+#vacancies .vagas{
+  max-width: 768px;
+  margin: 4rem auto 0;
+}
+#vacancies .vagas h4{
+  font-size: 1.25rem;
+  color: var(--new-gray-900);
+  margin-bottom: 2rem;
+}
+#vacancies .vagas .border{
+  border: 1px solid #EAECF0;
+  border-radius: 1rem;
+  padding: 1.5rem 1.5rem 1.75rem;
+  margin-bottom: 1.5rem;
+}
+#vacancies .vagas p.subtitle{
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+  color: var(--new-gray-900);
+}
+#vacancies .vagas p.time,
+#vacancies .vagas p.salary{
+  display: inline;
+  color: var(--new-gray-500);
+  font-size: 1rem;
+}
+#vacancies .vagas p.time{
+  margin-right: 1.5rem;
+}
